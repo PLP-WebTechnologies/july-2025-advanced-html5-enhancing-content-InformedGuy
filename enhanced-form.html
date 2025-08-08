@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Enhanced HTML Elements</title>
+            <style>
+                caption {
+                    caption-side: bottom;
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                <p><b>Web development</b> is a term used to refer to all the processes involved in the creation, building and maintenance of websites and web applications. A website is typically made up of two components; the frontend and the backend.</p>
+                <dl>
+                    <dt>Frontend</dt>
+                    <dd>The frontend involves the visual aspect of the website. It involves everything that the user can see and interact with.</dd>
+                    <dt>Backend</dt>
+                    <dd>The backend involves the "behind the scenes" operations that create the website's functionality.</dd>
+                </dl>
+            </header>
+            <section>
+                <h2>Frontend Development</h2>
+                <p>The primary objective of frontend development is to create the user interface of the website and ensure that it is responsive, accessible and visually appealing.</p>
+                <p>To achieve this, frontend developers use the following languages:</p>
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ol>
+                <p>Frontend developers make use of various frameworks to make the task of developing websites easier.</p>
+                <table>
+                    <caption>
+                        <i>Frontend frameworks ranked by popularity</i>
+                    </caption>
+                    <tr>
+                        <th width="300">Framework</th>
+                        <th width="300">Professional Developers</th>
+                        <th width="300">Learning to Code</th>
+                    </tr>
+                    <tr>
+                        <td>React</td>
+                        <td>46.9%</td>
+                        <td>43.5%</td>
+                    </tr>
+                    <tr>
+                        <td>Vue</td>
+                        <td>18.4%</td>
+                        <td>14.1%</td>
+                    </tr>
+                    <tr>
+                        <td>Angular</td>
+                        <td>19.8%</td>
+                        <td>9.5%</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h2>Backend Development</h2>
+                <p>The primary objective of backend development is to develop the website's functionality. The backend is made up of three main components:</p>
+                <ol>
+                    <li>Servers: They are used to process requests, host applications and manage resources.</li>
+                    <li>Databases: Used to strore, manage and retrieve data. Examples of database technologies include:
+                        <ul>
+                            <li>PostgreSQL</li>
+                            <li>MySQL</li>
+                            <li>SQLite</li>
+                            <li>Microsoft SQL Server</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </li>
+                    <li>Application Programming Interface (API): A set of protocols that enables software applications to communicate</li>
+                </ol>
+                <p>Various programming languages and frameworks are used for backend development</p>
+                <table>
+                    <caption>
+                        <i>Backend frameworks ranked by popularity</i>
+                    </caption>
+                    <tr>
+                        <th width="300">Framework</th>
+                        <th width="300">Language</th>
+                        <th width="300">Professional Developers</th>
+                        <th width="300">Learning to Code</th>
+                    </tr>
+                    <tr>
+                        <td>NodeJS</td>
+                        <td>JavaScript</td>
+                        <td>49.1%</td>
+                        <td>53.3%</td>
+                    </tr>
+                    <tr>
+                        <td>ASP.NET Core</td>
+                        <td>C#</td>
+                        <td>21.3%</td>
+                        <td>9%</td>
+                    </tr>
+                    <tr>
+                        <td>Spring Boot</td>
+                        <td>Java</td>
+                        <td>15.6%</td>
+                        <td>10.7%</td>
+                    </tr>
+                    <tr>
+                        <td>ASP.NET</td>
+                        <td>C#</td>
+                        <td>15%</td>
+                        <td>7.5%</td>
+                    </tr>
+                    <tr>
+                        <td>Flask</td>
+                        <td>Python</td>
+                        <td>13.2%</td>
+                        <td>21.1%</td>
+                    </tr>
+                    <tr>
+                        <td>Django</td>
+                        <td>Python</td>
+                        <td>11.7%</td>
+                        <td>17.2%</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h2>Fun Video</h2>
+                <video controls width="600" height="450" autoplay>
+                    <source src="media/beach.mp4" type="video/mp4">
+                </video>
+            </section>
+            <section>
+                <h2>HTML Forms</h2>
+                <form autocomplete="on">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required placeholder="Name">
+                    <br><br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required placeholder="Email">
+                    <br><br>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" min="16" max="40" required placeholder="Age">
+                    <br><br>
+                    <label for="birthdate">Birth-Date</label>
+                    <input type="date" name="birthdate" id="birthdate" required>
+                    <br><br>
+                    <b>Favorite social media</b>
+                    <br>
+                    <label for="reddit">Reddit</label>
+                    <input type="checkbox" name="reddit" id="reddit">
+                    <br>
+                    <label for="x">X</label>
+                    <input type="checkbox" name="x" id="x">
+                    <br>
+                    <label for="tiktok">Tiktok</label>
+                    <input type="checkbox" name="tiktok" id="tiktok">
+                    <br>
+                    <label for="facebook">Facebook</label>
+                    <input type="checkbox" name="facebook" id="facebook">
+                    <br><br>
+                    <b>Gender</b>
+                    <br>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <br>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <br>
+                    <label for="other">Other</label>
+                    <input type="radio" name="gender" id="other" value="other">
+                    <br><br>
+                    <label for="language">Favorite Programming Language</label>
+                    <select name="language" id="language">
+                        <option>Select Programming Language</option>
+                        <option value="Java">Java</option>
+                        <option value="C#">C#</option>
+                        <option value="C++">C++</option>
+                        <option value="Python">Python</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Rust">Rust</option>
+                    </select>
+                    <br><br>
+                    <label for="bio">Bio</label>
+                    <textarea id="bio" name="bio"></textarea>
+                    <br><br>
+                    <label for="file">File</label>
+                    <input type="file" name="file" id="file">
+                    <br><br>
+                    <label for="randomText">RandomText</label>
+                    <textarea id="randomText" name="randomText" readonly>Programming is fun!</textarea>
+                    <br><br>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="password">
+                    <br><br>
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </body>
+    </html>
